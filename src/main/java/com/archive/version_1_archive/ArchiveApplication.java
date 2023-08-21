@@ -10,10 +10,10 @@ import service.ArchiveServiceImpl;
 import java.sql.Date;
 
 @SpringBootApplication
-public class Version1ArchiveApplication {
+public class ArchiveApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Version1ArchiveApplication.class, args);
+        SpringApplication.run(ArchiveApplication.class, args);
         ApplicationContext context = new AnnotationConfigApplicationContext(ArchiveServiceImpl.class);
         ArchiveServiceImpl archiveServiceImpl = context.getBean("archive", ArchiveServiceImpl.class);
         Date whenDate = Date.valueOf("2023-08-21"); // Приклад дати
