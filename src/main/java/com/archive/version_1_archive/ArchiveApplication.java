@@ -15,7 +15,7 @@ public class ArchiveApplication {
     public static void main(String[] args) {
         SpringApplication.run(ArchiveApplication.class, args);
         ApplicationContext context = new AnnotationConfigApplicationContext(ArchiveServiceImpl.class);
-        ArchiveServiceImpl archiveServiceImpl = context.getBean("archive", ArchiveServiceImpl.class);
+        ArchiveServiceImpl archiveServiceImpl = context.getBean("archiveService", ArchiveServiceImpl.class);
         Date whenDate = Date.valueOf("2023-08-21"); // Приклад дати
         String fond = "Sample Fond";
         String description = "Sample Description";

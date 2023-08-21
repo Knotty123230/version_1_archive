@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service("archive")
+@Service("archiveService")
 public class ArchiveServiceImpl implements ArchiveService {
 
     private final ArchiveRepo archiveRepo;
