@@ -1,4 +1,4 @@
-package service;
+package com.archive.version_1_archive.service;
 
 import com.archive.version_1_archive.dto.Archive;
 import org.springframework.stereotype.Component;

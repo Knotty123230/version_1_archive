@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import service.ArchiveServiceImpl;
+import com.archive.version_1_archive.service.ArchiveServiceImpl;
 
 import java.sql.Date;
 

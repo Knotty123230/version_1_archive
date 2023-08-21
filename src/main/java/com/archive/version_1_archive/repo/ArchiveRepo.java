@@ -5,6 +5,6 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-@Repository
+@Repository("archiveRepo")
 public interface ArchiveRepo extends CrudRepository<Archive, Long> {
 }
